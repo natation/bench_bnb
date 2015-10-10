@@ -17,5 +17,9 @@
 //= require react_ujs
 //= require flux
 //= require eventemitter
-//= require components
+//= require underscore
+//= require_tree ./dispatcher
+//= require_tree ./actions
+//= require_tree ./stores
+//= require_tree ./components
 //= require_tree .

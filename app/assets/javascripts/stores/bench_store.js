@@ -20,7 +20,7 @@
     dispatcherId: AppDispatcher.register(function (payload) {
       switch (payload.actionType) {
         case BenchConstants.BENCHES_RECEIVED:
-          resetBenches(payload.benches); // ORDER MATTERS!?!?!?
+          resetBenches(payload.benches);
           BenchStore.emit(CHANGE_EVENT);
           break;
       }

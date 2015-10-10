@@ -4,8 +4,8 @@
     render: function () {
       return (
         <div>
-          <Map/>
           <Index/>
+          <Map/>
         </div>
       );
     }
